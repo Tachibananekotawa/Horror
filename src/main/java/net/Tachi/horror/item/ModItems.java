@@ -17,6 +17,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> URANIUM = ITEMS.register("uranium",()-> new Item(new Item.Properties().tab(ModCreativeModTab.FNAF)));
     public static final RegistryObject<Item> RAW_URANIUM = ITEMS.register("raw_uranium",()-> new Item(new Item.Properties().tab(ModCreativeModTab.FNAF)));
+    public static final RegistryObject<Item> URANIUM_HELMET = ITEMS.register("uranium_helmet",()-> new Item(new Item.Properties().tab(ModCreativeModTab.FNAF)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
