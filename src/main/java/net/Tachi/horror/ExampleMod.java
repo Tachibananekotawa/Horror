@@ -11,15 +11,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(ExampleMod.MOD_ID)
-public class ExampleMod
+@Mod(horror.MOD_ID)
+public class horror
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "horror";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
-    public ExampleMod()
+    // Create a Deferred Register to hold Blocks which will all be registered under the "horror" namespace
+    public horror()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         // Register the commonSetup method for modloading
