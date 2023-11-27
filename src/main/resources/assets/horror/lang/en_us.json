@@ -1,4 +1,6 @@
 {
   "item.horror.uranium": "Uranium",
-  "item.horror.raw_uranium": "Raw Uranium"
+  "item.horror.raw_uranium": "Raw Uranium",
+
+  "itemGroup.horror": "FNAF"
 }
