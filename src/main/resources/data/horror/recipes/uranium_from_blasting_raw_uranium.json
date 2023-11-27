@@ -3,9 +3,8 @@
   "cookingtime": 100,
   "experience": 0.7,
   "group": "uranium",
-  "ingredients":
-    {
-      "item": "horror:raw_uranium"
-    },
+  "ingredient": {
+    "item": "horror:raw_uranium"
+  },
   "result": "horror:uranium"
 }

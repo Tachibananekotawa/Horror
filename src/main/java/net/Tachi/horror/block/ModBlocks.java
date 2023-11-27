@@ -1,5 +1,6 @@
 package net.Tachi.horror.block;
 
+import net.Tachi.horror.block.custom.Radiationblock.json;
 import net.Tachi.horror.horror;
 import net.Tachi.horror.item.ModCreativeModTab;
 import net.Tachi.horror.item.ModItems;
@@ -26,7 +27,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> Uranium_Ore = registerBlock("uranium_ore",() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(4,9)), ModCreativeModTab.FNAF);
     public static final RegistryObject<Block> DEEPSLATE_Uranium_Ore = registerBlock("deepslate_uranium_ore",() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(4,9)), ModCreativeModTab.FNAF);
-    public static final RegistryObject<Block> Uranium_Block = registerBlock("uranium_block",() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.FNAF);
+    public static final RegistryObject<Block> Uranium_Block = registerBlock("uranium_block",() -> new json(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.FNAF);
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T>block, CreativeModeTab tab){
         RegistryObject<T> toReturn= BLOCKS.register(name,block);

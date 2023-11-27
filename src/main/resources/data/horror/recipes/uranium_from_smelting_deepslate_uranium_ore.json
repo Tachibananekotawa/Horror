@@ -4,7 +4,7 @@
   "experience": 0.7,
   "group": "uranium",
   "ingredient": {
-    "item": "minecraft:deepslate_uranium_ore"
+    "item": "horror:deepslate_uranium_ore"
   },
-  "result": "minecraft:uranium"
+  "result": "horror:uranium"
 }

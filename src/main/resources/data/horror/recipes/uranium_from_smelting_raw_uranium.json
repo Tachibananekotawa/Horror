@@ -4,7 +4,7 @@
   "experience": 0.7,
   "group": "uranium",
   "ingredient": {
-    "item": "minecraft:raw_uranium"
+    "item": "horror:raw_uranium"
   },
-  "result": "minecraft:uranium"
+  "result": "horror:uranium"
 }
