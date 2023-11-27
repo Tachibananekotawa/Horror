@@ -22,10 +22,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> URANIUM = ITEMS.register("uranium",()-> new Item(new Item.Properties().tab(ModCreativeModTab.FNAF)));
     public static final RegistryObject<Item> RAW_URANIUM = ITEMS.register("raw_uranium",()-> new Item(new Item.Properties().tab(ModCreativeModTab.FNAF)));
-    public static final RegistryObject<Item> URANIUM_HELMET = ITEMS.register("uranium_helmet",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.HEAD,new Properties()));
-    public static final RegistryObject<Item> URANIUM_CHESTPLATE = ITEMS.register("uranium_chestplate",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.CHEST,new Properties()));
-    public static final RegistryObject<Item> URANIUM_LEGGINGS = ITEMS.register("uranium_leggings",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.LEGS,new Properties()));
-    public static final RegistryObject<Item> URANIUM_BOOTS= ITEMS.register("uranium_boots",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.FEET,new Properties()));
+    public static final RegistryObject<Item> URANIUM_HELMET = ITEMS.register("uranium_helmet",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.HEAD,new Properties().tab(ModCreativeModTab.FNAF)));
+    public static final RegistryObject<Item> URANIUM_CHESTPLATE = ITEMS.register("uranium_chestplate",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.CHEST,new Properties().tab(ModCreativeModTab.FNAF)));
+    public static final RegistryObject<Item> URANIUM_LEGGINGS = ITEMS.register("uranium_leggings",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.LEGS,new Properties().tab(ModCreativeModTab.FNAF)));
+    public static final RegistryObject<Item> URANIUM_BOOTS= ITEMS.register("uranium_boots",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.FEET,new Properties().tab(ModCreativeModTab.FNAF)));
     public static final RegistryObject<PickaxeItem> URANIUM_PICKAXE = ITEMS.register("uranium_pickaxe",()->
             new PickaxeItem(ItemTiers.Uranium,5,3,new Properties().tab(ModCreativeModTab.FNAF)));
     static final RegistryObject<AxeItem> URANIUM_AXE = ITEMS.register("uranium_axe",()->
