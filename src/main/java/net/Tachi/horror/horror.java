@@ -1,6 +1,7 @@
 package net.Tachi.horror;
 
 import com.mojang.logging.LogUtils;
+import net.Tachi.horror.block.ModBlocks;
 import net.Tachi.horror.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +25,7 @@ public class horror
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
