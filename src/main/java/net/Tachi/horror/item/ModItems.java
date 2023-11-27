@@ -15,7 +15,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, horror.MOD_ID);
 
-    public static final RegistryObject<Item> URANIUM = ITEMS.register("uranium",()-> new Item(new Item.Properties().tab(TAB_MISC)));
+    public static final RegistryObject<Item> URANIUM = ITEMS.register("uranium",()-> new Item(new Item.Properties().tab(ModCreativeModTab.FNAF)));
+    public static final RegistryObject<Item> RAW_URANIUM = ITEMS.register("raw_uranium",()-> new Item(new Item.Properties().tab(ModCreativeModTab.FNAF)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
