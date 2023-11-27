@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "horror:uranium_ore",
+    "horror:uranium_block",
+    "horror:deepslate_uranium_ore"
+  ]
+}

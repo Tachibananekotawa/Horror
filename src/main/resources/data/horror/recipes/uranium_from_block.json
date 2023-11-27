@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapless",
+  "ingredients":[
+    {
+      "item": "horror:uranium_block"
+    }
+  ],
+  "result": {
+    "item": "horror:uranium",
+    "count": 9
+  }
+}
