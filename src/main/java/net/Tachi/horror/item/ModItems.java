@@ -37,7 +37,7 @@ public class ModItems {
                 3.0f,
                 ()-> Ingredient.of(ItemStack.EMPTY.getItem())
 
-        )
+        );
 
     }
     public static void register(IEventBus modEventBus) {
