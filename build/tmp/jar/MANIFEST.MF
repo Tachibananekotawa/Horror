@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: horror
+Specification-Vendor: horrorsareus
+Specification-Version: 1
+Implementation-Title: Horror
+Implementation-Version: 0.0.1-1.19
+Implementation-Vendor: horrorsareus
+Implementation-Timestamp: 2023-11-27T03:02:29+0000
+
