@@ -5,6 +5,11 @@
   "item.horror.uranium_chestplate": "Uranium ChestPlate",
   "item.horror.uranium_leggings": "Uranium Leggings",
   "item.horror.uranium_boots": "Uranium Boots",
+  "item.horror.uranium_sword": "Uranium Sword",
+  "item.horror.uranium_pickaxe": "Uranium Pickaxe",
+  "item.horror.uranium_axe": "Uranium Axe",
+  "item.horror.uranium_shovel": "Uranium Shovel",
+  "item.horror.uranium_hoe": "Uranium Hoe",
 
   "block.horror.uranium_block": "Uranium Block",
   "block.horror.uranium_ore": "Uranium Ore",

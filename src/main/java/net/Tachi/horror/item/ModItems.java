@@ -7,6 +7,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,7 +26,16 @@ public class ModItems {
     public static final RegistryObject<Item> URANIUM_CHESTPLATE = ITEMS.register("uranium_chestplate",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.CHEST,new Properties()));
     public static final RegistryObject<Item> URANIUM_LEGGINGS = ITEMS.register("uranium_leggings",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.LEGS,new Properties()));
     public static final RegistryObject<Item> URANIUM_BOOTS= ITEMS.register("uranium_boots",()-> new ArmorItem(ArmorTiers.Example, EquipmentSlot.FEET,new Properties()));
-
+    public static final RegistryObject<PickaxeItem> URANIUM_PICKAXE = ITEMS.register("uranium_pickaxe",()->
+            new PickaxeItem(ItemTiers.Uranium,5,3,new Properties().tab(ModCreativeModTab.FNAF)));
+    static final RegistryObject<AxeItem> URANIUM_AXE = ITEMS.register("uranium_axe",()->
+            new AxeItem(ItemTiers.Uranium,5,3,new Properties().tab(ModCreativeModTab.FNAF)));
+    static final RegistryObject<ShovelItem> URANIUM_SHOVEL = ITEMS.register("uranium_shovel",()->
+            new ShovelItem(ItemTiers.Uranium,5,3,new Properties().tab(ModCreativeModTab.FNAF)));
+    static final RegistryObject<HoeItem> URANIUM_HOE = ITEMS.register("uranium_hoe",()->
+            new HoeItem(ItemTiers.Uranium,5,3,new Properties().tab(ModCreativeModTab.FNAF)));
+    static final RegistryObject<SwordItem> URANIUM_SWORD = ITEMS.register("uranium_sword",()->
+            new SwordItem(ItemTiers.Uranium,5,3,new Properties().tab(ModCreativeModTab.FNAF)));
 
     public static class ArmorTiers{
         public static final ArmorMaterial Example = new ModArmorMaterial(
@@ -40,6 +50,10 @@ public class ModItems {
         );
 
     }
+    public static class ItemTiers{
+        public static final Tier Uranium = new ForgeTier(4,1000,3.5f, 5, 400,null,()->Ingredient.of(ModItems.URANIUM.get()));
+        };
+
     public static void register(IEventBus modEventBus) {
         ITEMS.register(modEventBus);
     }
