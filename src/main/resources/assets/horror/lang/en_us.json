@@ -13,6 +13,6 @@
 
   "block.horror.uranium_block": "Uranium Block",
   "block.horror.uranium_ore": "Uranium Ore",
-  "block.horror.deepslate_uranium_ore": "Uranium Block",
+  "block.horror.deepslate_uranium_ore": "DeepSlate Uranium Ore",
   "itemGroup.horror": "FNAF"
 }
