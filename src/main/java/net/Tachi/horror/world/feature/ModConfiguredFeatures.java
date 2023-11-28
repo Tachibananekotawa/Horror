@@ -25,7 +25,7 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES,ModBlocks.Uranium_Ore.get().defaultBlockState()),
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES,ModBlocks.DEEPSLATE_Uranium_Ore.get().defaultBlockState())));
     public static final RegistryObject<ConfiguredFeature<?,?>> URANIUM_ORE = CONFIGURED_FEATURES.register("uranium_ore",()->
-            new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_URANIUM_ORE.get(),30)));
+            new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_URANIUM_ORE.get(),10)));
 
     public static void register(IEventBus eventBus){
         CONFIGURED_FEATURES.register(eventBus);
